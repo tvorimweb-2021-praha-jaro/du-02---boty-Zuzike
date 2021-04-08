@@ -25,3 +25,122 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body {
+    max-width: 670px;
+    max-height: 440px;
+    margin: auto;
+    background-color: #e6e4e4;
+    padding-top: 50px;
+ }
+.vizual, .detaily{
+    width: 335px;
+    height: 440px;
+}
+.detaily{
+    float:right;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.vizual{
+    background: linear-gradient(#06d7c1,#50cc49 );
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float:left;
+}
+.bota{
+  position: relative;  
+  right: 80px;
+  bottom: 30px;
+}
+li{
+    display: inline-block;
+}
+.logo{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.akce {
+    padding: 20px 30px;
+    background-color: #f15f42;
+    border-radius: 0.25rem;
+}
+.slogan{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    }
+.cena{
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    font-family: 'Rubik', sans-serif;
+    }
+.zaruka{
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+}
+.cenovka{
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+}
+.cena{
+    padding-left: 35px;
+}
+.detaily{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.nazev{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.produkt{
+       color:  #959595;
+       padding-left: 30px;
+}
+.popis{
+    margin: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #06d7c1;
+}
+.parametr{
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+.tlacitko{
+        color: white;
+        font-family:'Rubik', sans-serif;
+        text-transform: uppercase;    
+}
+li{
+    margin-right: 20px;   
+}
+.vybrana{
+    padding: 5px;
+    color: #f15f42;
+    border: 1px solid #f15f42;
+    border-radius: 100px;
+}
+.akce{
+    padding: 15px 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 170px;
+    text-align: center;       
+}
